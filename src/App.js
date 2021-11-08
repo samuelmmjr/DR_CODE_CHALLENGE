@@ -1,9 +1,12 @@
+import React from 'react'
+import Calc from './components/calc'
 
-function App() {
+function App () {
   return (
-    <div className="App">
-    </div>
-  );
+    <>
+      <Calc />
+    </>
+  )
 }
 
-export default App;
+export default App
